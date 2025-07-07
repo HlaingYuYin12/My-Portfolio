@@ -15,15 +15,17 @@
             integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
             crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+        <!-- link for style css -->
+        <link rel="stylesheet" href="./style.css">
     </head>
-    <body>
+    <body class>
 
         <!-- start for nav bar -->
         <nav
             class="navbar navbar-expand-lg bg-body-tertiary rounded-2 shadow-sm sticky-top">
             <div class="container-fluid ">
-                <a class="navbar-brand text-danger fw-bold fs-5 mx-5 ps-4"
-                    href="#">My Portfolio</a>
+                <a class="navbar-brand fw-bold fs-5 mx-5 ps-4"
+                    href="#" style="color: #ee4b4b;">My Portfolio</a>
                 <button class="navbar-toggler" type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent"
@@ -35,23 +37,24 @@
                     id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item ">
-                            <a class="nav-link text-secondary active"
+                            <a class="nav-link text-dark active"
                                 aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link text-secondary" href="#about">About
+                            <a class="nav-link text-dark"
+                                href="#about">About
                                 Me</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link text-secondary"
+                            <a class="nav-link text-dark"
                                 href="#projects">Freelancer Projects</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link text-secondary"
+                            <a class="nav-link text-dark"
                                 href="#members">Members</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link text-secondary"
+                            <a class="nav-link text-dark"
                                 href="#contact">Contact</a>
                         </li>
                     </div>
@@ -59,6 +62,56 @@
             </nav>
             <!-- end for nav bar -->
 
+            <!-- start for home section-->
+            <div class="container " id="home">
+                <div
+                    class="row min-vh-100 align-items-center align-content-center">
+                    <div class="col-lg-6">
+                        <div class="text-center">
+                            <img src="./images/prof1.jpg" class="rounded-circle"
+                                width="70%" height="70%" alt>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ">
+                        <div class>
+                            <h5><p class="text-dark pt-4">Hello, I'm
+                                    Hlaing Yu Yin</h5></p>
+                            <h2 class="text-danger text-uppercase">Junior Web
+                                Developer </h2>
+                            <h5 class="text-dark pt-2"> Full-Stack
+                                Enthusiast</h5>
+
+                            <p class="pt-2" style='text-align: justify;'>I’m a
+                                passionate Junior Web Developer with a
+                                solid foundation in both front-end and back-end
+                                development. I specialize in building
+                                responsive, user-friendly websites and dynamic
+                                web applications using technologies like <b
+                                    class="text-muted"> HTML,
+                                    CSS, JavaScript, MySQL, PHP, and
+                                    Laravel</b>. I’ve
+                                implemented features such as <b
+                                    class="text-muted"> user authentication </b>
+                                and <b class="text-muted"> data management </b>
+                                , ensuring both functionality
+                                and performance.
+
+                                With additional experience in <b
+                                    class="text-muted"> Python </b> , I’m always
+                                expanding my skills through ongoing IT studies.
+                                I focus on writing clean, efficient code and
+                                delivering seamless user experiences across all
+                                platforms.
+
+                                Let’s build something great together!</p>
+                            <button class="btn btn-danger shadow-lg">My
+                                work</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- end for home section -->
         </body>
 
         <!-- link for cdn bootstrap js -->
