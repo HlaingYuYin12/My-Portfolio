@@ -1,3 +1,76 @@
 body{
-    background: linear-gradient(to bottom, #a7d3ff, #ffffff);
+    background-color: #fff6f9;    
+} 
+.nav_background {
+    background: linear-gradient(to bottom, #ffe4ec, #ffccd5);
+    color: #4b4453;
+}
+
+.home{
+    background-color: #ffebef;
+}
+
+
+.btn-pink {
+    background-color: #ff6b81;
+    color: white;
+    border: none;
+}
+
+.navbar-brand{
+    color: #ff4f81;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 26px;
+}
+
+.nav-item{
+    border-radius: 2em;
+    background-color: rgba(255, 228, 242, 0.95);
+    margin: 5px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-align: center;
+}
+
+.nav-item:hover {
+    background-color: #ff4f81;
+    border-radius: 2em;
+}
+
+.about{
+   background-color: hsl(339, 100%, 93%);
+}
+
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-left {
+  animation: slideInLeft 2s ease-out;
+}
+
+
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-right {
+  animation: slideInRight 2s ease-out;
 }
