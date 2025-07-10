@@ -141,8 +141,12 @@ span{
   font-family: "BioRhyme", serif;
 }
 
-h5{
+h5,h4,h3 {
   font-family: "My Soul", cursive; 
-
 }
 
+
+.skill{
+    background-color: #ffebef;
+
+}
