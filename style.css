@@ -23,6 +23,7 @@ body{
     font-size: 26px;
 }
 
+
 .nav-item{
     border-radius: 2em;
     background-color: rgba(255, 228, 242, 0.95);
@@ -42,8 +43,8 @@ body{
    background-color: hsl(339, 100%, 93%);
 }
 
-
-@keyframes slideInLeft {
+/* start for animation */
+ @keyframes slideInLeft {
   from {
     transform: translateX(-100%);
     opacity: 0;
@@ -55,7 +56,7 @@ body{
 }
 
 .slide-in-left {
-  animation: slideInLeft 2s ease-out;
+  animation: slideInLeft 1.8s ease-out;
 }
 
 
@@ -72,5 +73,76 @@ body{
 }
 
 .slide-in-right {
-  animation: slideInRight 2s ease-out;
+  animation: slideInRight 1.5s ease-out;
+} 
+/* end for animation */
+
+
+
+
+.my_name span {
+  font-family :"Dancing Script", cursive;
+  display: inline-block;
+  font-size: 28px;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 1s forwards;
 }
+
+.my_name span:nth-child(1) { animation-delay: 0.2s; }
+.my_name span:nth-child(2) { animation-delay: 0.4s; }
+.my_name span:nth-child(3) { animation-delay: 0.6s; }
+.my_name span:nth-child(4) { animation-delay: 0.8s; }
+.my_name span:nth-child(5) { animation-delay: 1s; }
+.my_name span:nth-child(6) { animation-delay: 1.2s; }
+.my_name span:nth-child(7) { animation-delay: 1.4s; }
+.my_name span:nth-child(8) { animation-delay: 1.6s; }
+.my_name span:nth-child(9) { animation-delay: 1.8s; }
+.my_name span:nth-child(10) { animation-delay: 2.0s; }
+.my_name span:nth-child(11) { animation-delay: 2.2s; }
+.my_name span:nth-child(12) { animation-delay: 2.4s; }
+.my_name span:nth-child(13) { animation-delay: 2.6s; }
+.my_name span:nth-child(14) { animation-delay: 2.8s; }
+.my_name span:nth-child(15) { animation-delay: 3s; }
+.my_name span:nth-child(16) { animation-delay: 3.2s; }
+.my_name span:nth-child(17) { animation-delay: 3.4s; }
+.my_name span:nth-child(18) { animation-delay: 3.6s; }
+.my_name span:nth-child(19) { animation-delay: 3.8s; }
+.my_name span:nth-child(20) { animation-delay: 4s; }
+.my_name span:nth-child(21) { animation-delay: 4.2s; }
+.my_name span:nth-child(22) { animation-delay: 4.4s; }
+.my_name span:nth-child(23) { animation-delay: 4.6s; }
+.my_name span:nth-child(24) { animation-delay: 4.8s; }
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+ 
+h3{
+  font-family:  "Kavoon", serif;
+}
+
+p{
+  font-family: "BioRhyme", serif;
+  font-size: 17px;
+}
+
+span{
+  font-family: "Roboto", sans-serif;
+  color:#ff4f81;
+}
+
+.download_btn{
+  font-family: "BioRhyme", serif;
+}
+
+h5{
+  font-family: "My Soul", cursive; 
+
+}
+
