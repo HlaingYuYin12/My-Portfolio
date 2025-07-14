@@ -1,10 +1,14 @@
 body{
     background-color: #fff6f9;    
 } 
+
+/* for nav and home section */
 .nav_background {
     background: linear-gradient(to bottom, #ffe4ec, #ffccd5);
     color: #4b4453;
 }
+
+
 
 .home{
     background-color: #ffebef;
@@ -78,7 +82,7 @@ body{
 /* end for animation */
 
 
-
+/* for about section */
 
 .my_name span {
   font-family :"Dancing Script", cursive;
@@ -146,7 +150,14 @@ h5,h4,h3 {
 }
 
 
+/* for skill section */
 .skill{
     background-color: #ffebef;
 
+}
+
+
+/*for projects section */
+.projects{
+  background-color: hsl(339, 100%, 93%);
 }
