@@ -1,54 +1,50 @@
-body{
-    background-color: #fff6f9;    
-} 
+body {
+  background-color: #fff6f9;
+}
 
 /* for nav and home section */
 .nav_background {
-    background: linear-gradient(to bottom, #ffe4ec, #ffccd5);
-    color: #4b4453;
+  background: linear-gradient(to bottom, #ffe4ec, #ffccd5);
+  color: #4b4453;
 }
 
-
-
-.home{
-    background-color: #ffebef;
+.home {
+  background-color: #ffebef;
 }
-
 
 .btn-pink {
-    background-color: #ff6b81;
-    color: white;
-    border: none;
+  background-color: #ff6b81;
+  color: white;
+  border: none;
 }
 
-.navbar-brand{
-    color: #ff4f81;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 26px;
+.navbar-brand {
+  color: #ff4f81;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 26px;
 }
 
-
-.nav-item{
-    border-radius: 2em;
-    background-color: rgba(255, 228, 242, 0.95);
-    margin: 5px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding-left: 3px;
-    padding-right: 3px;
-    text-align: center;
+.nav-item {
+  border-radius: 2em;
+  background-color: rgba(255, 228, 242, 0.95);
+  margin: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding-left: 3px;
+  padding-right: 3px;
+  text-align: center;
 }
 
 .nav-item:hover {
-    background-color: #ff4f81;
-    border-radius: 2em;
+  background-color: #ff4f81;
+  border-radius: 2em;
 }
 
-.about{
-   background-color: hsl(339, 100%, 93%);
+.about {
+  background-color: hsl(339, 100%, 93%);
 }
 
 /* start for animation */
- @keyframes slideInLeft {
+@keyframes slideInLeft {
   from {
     transform: translateX(-100%);
     opacity: 0;
@@ -63,8 +59,6 @@ body{
   animation: slideInLeft 1.8s ease-out;
 }
 
-
-
 @keyframes slideInRight {
   from {
     transform: translateX(100%);
@@ -78,14 +72,13 @@ body{
 
 .slide-in-right {
   animation: slideInRight 1.5s ease-out;
-} 
+}
 /* end for animation */
-
 
 /* for about section */
 
 .my_name span {
-  font-family :"Dancing Script", cursive;
+  font-family: "Dancing Script", cursive;
   display: inline-block;
   font-size: 28px;
   opacity: 0;
@@ -93,30 +86,78 @@ body{
   animation: fadeUp 1s forwards;
 }
 
-.my_name span:nth-child(1) { animation-delay: 0.2s; }
-.my_name span:nth-child(2) { animation-delay: 0.4s; }
-.my_name span:nth-child(3) { animation-delay: 0.6s; }
-.my_name span:nth-child(4) { animation-delay: 0.8s; }
-.my_name span:nth-child(5) { animation-delay: 1s; }
-.my_name span:nth-child(6) { animation-delay: 1.2s; }
-.my_name span:nth-child(7) { animation-delay: 1.4s; }
-.my_name span:nth-child(8) { animation-delay: 1.6s; }
-.my_name span:nth-child(9) { animation-delay: 1.8s; }
-.my_name span:nth-child(10) { animation-delay: 2.0s; }
-.my_name span:nth-child(11) { animation-delay: 2.2s; }
-.my_name span:nth-child(12) { animation-delay: 2.4s; }
-.my_name span:nth-child(13) { animation-delay: 2.6s; }
-.my_name span:nth-child(14) { animation-delay: 2.8s; }
-.my_name span:nth-child(15) { animation-delay: 3s; }
-.my_name span:nth-child(16) { animation-delay: 3.2s; }
-.my_name span:nth-child(17) { animation-delay: 3.4s; }
-.my_name span:nth-child(18) { animation-delay: 3.6s; }
-.my_name span:nth-child(19) { animation-delay: 3.8s; }
-.my_name span:nth-child(20) { animation-delay: 4s; }
-.my_name span:nth-child(21) { animation-delay: 4.2s; }
-.my_name span:nth-child(22) { animation-delay: 4.4s; }
-.my_name span:nth-child(23) { animation-delay: 4.6s; }
-.my_name span:nth-child(24) { animation-delay: 4.8s; }
+.my_name span:nth-child(1) {
+  animation-delay: 0.2s;
+}
+.my_name span:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.my_name span:nth-child(3) {
+  animation-delay: 0.6s;
+}
+.my_name span:nth-child(4) {
+  animation-delay: 0.8s;
+}
+.my_name span:nth-child(5) {
+  animation-delay: 1s;
+}
+.my_name span:nth-child(6) {
+  animation-delay: 1.2s;
+}
+.my_name span:nth-child(7) {
+  animation-delay: 1.4s;
+}
+.my_name span:nth-child(8) {
+  animation-delay: 1.6s;
+}
+.my_name span:nth-child(9) {
+  animation-delay: 1.8s;
+}
+.my_name span:nth-child(10) {
+  animation-delay: 2s;
+}
+.my_name span:nth-child(11) {
+  animation-delay: 2.2s;
+}
+.my_name span:nth-child(12) {
+  animation-delay: 2.4s;
+}
+.my_name span:nth-child(13) {
+  animation-delay: 2.6s;
+}
+.my_name span:nth-child(14) {
+  animation-delay: 2.8s;
+}
+.my_name span:nth-child(15) {
+  animation-delay: 3s;
+}
+.my_name span:nth-child(16) {
+  animation-delay: 3.2s;
+}
+.my_name span:nth-child(17) {
+  animation-delay: 3.4s;
+}
+.my_name span:nth-child(18) {
+  animation-delay: 3.6s;
+}
+.my_name span:nth-child(19) {
+  animation-delay: 3.8s;
+}
+.my_name span:nth-child(20) {
+  animation-delay: 4s;
+}
+.my_name span:nth-child(21) {
+  animation-delay: 4.2s;
+}
+.my_name span:nth-child(22) {
+  animation-delay: 4.4s;
+}
+.my_name span:nth-child(23) {
+  animation-delay: 4.6s;
+}
+.my_name span:nth-child(24) {
+  animation-delay: 4.8s;
+}
 
 @keyframes fadeUp {
   to {
@@ -125,39 +166,53 @@ body{
   }
 }
 
-
- 
-h3{
-  font-family:  "Kavoon", serif;
-}
-
-p{
+p {
   font-family: "BioRhyme", serif;
   font-size: 17px;
 }
 
-span{
+span {
   font-family: "Roboto", sans-serif;
-  color:#ff4f81;
+  color: #ff4f81;
 }
 
-.download_btn{
+.download_btn {
   font-family: "BioRhyme", serif;
 }
 
-h5,h4,h3 {
-  font-family: "My Soul", cursive; 
+h5,
+h4,
+h3 {
+  font-family: "My Soul", cursive;
 }
-
 
 /* for skill section */
-.skill{
-    background-color: #ffebef;
-
+.skill {
+  background-color: #ffebef;
 }
 
-
 /*for projects section */
-.projects{
+.projects {
   background-color: hsl(339, 100%, 93%);
+}
+
+.info {
+  background-color: #ffaebe;
+  color: rgb(25, 43, 62);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.members {
+  background-color: #ffebef;
+}
+
+.contact {
+  background-color: #ffebef;
+}
+
+.footer {
+  background-color: hsl(339, 100%, 93%);
+  text-align: center;
+  font-family: Arial, sans-serif;
 }
